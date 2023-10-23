@@ -131,6 +131,7 @@ function carrinho() {
         updateDisplay(".total", 0)
         carrinho = []
         total = 0
+        totalDaCompra = 0
         localStorage.clear()
         const listaItensDOM = document.querySelector(".itens")
         listaItensDOM.innerHTML = "<p id='carrinhoVazio'>Carrinho vazio</p>"
